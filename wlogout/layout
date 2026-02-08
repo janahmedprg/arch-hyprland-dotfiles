@@ -1,0 +1,27 @@
+{
+    "label" : "lock",
+    "action" : "~/.config/wlogout/scripts/action lock",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "~/.config/wlogout/scripts/action shutdown",
+    "text" : "Shutdown",
+    "keybind" : "p"
+}
+
+{
+    "label" : "reboot",
+    "action" : "~/.config/wlogout/scripts/action reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+
+{
+    "label" : "suspend",
+    "action" : "~/.config/wlogout/scripts/action suspend",
+    "text" : "Sleep",
+    "keybind" : "s"
+}

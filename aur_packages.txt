@@ -1,0 +1,10 @@
+grimblast-git
+grub-customizer
+libcava-git
+picom-arian8j2-git
+python-pywal16
+sddm-theme-sugar-candy-git
+visual-studio-code-bin
+wlogout
+yay-bin
+yay-bin-debug

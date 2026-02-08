@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+case $1 in
+    shutdown)
+        systemctl poweroff
+        ;;
+    reboot)
+        systemctl reboot
+        ;;
+    suspend)
+        systemctl suspend
+        ;;
+    lock)
+        loginctl lock-session
+        ;;
+    *)
+        echo "error"
+esac
