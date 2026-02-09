@@ -47,3 +47,27 @@ Categories=Network;InstantMessaging;
 Path=/usr/bin
 MimeType=x-scheme-handler/betterdiscord;
 ```
+Rofi calc:
+```
+[Desktop Entry]
+Type=Application
+Name=Calculator
+Comment=Do live calculations
+Exec=rofi -modi calc -show calc
+Icon=accessories-calculator
+Terminal=false
+Categories=Utility;
+Keywords=calc;math;calculator;
+```
+Clipboard:
+```
+[Desktop Entry]
+Type=Application
+Name=Clipboard
+Comment=Paste from clipboard history
+Exec=/home/janahmed/.local/bin/paste-clipboard
+Icon=edit-paste
+Terminal=false
+Categories=Utility;
+Keywords=clipboard;copy;paste;
+```
