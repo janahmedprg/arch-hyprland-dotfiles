@@ -53,7 +53,7 @@ Rofi calc:
 Type=Application
 Name=Calculator
 Comment=Do live calculations
-Exec=rofi -modi calc -show calc
+Exec=rofi -modi calc -show calc -calc-command "echo '{result}' | wl-copy && hyprctl dispatch sendshortcut CTRL, V, activewindow"
 Icon=accessories-calculator
 Terminal=false
 Categories=Utility;
