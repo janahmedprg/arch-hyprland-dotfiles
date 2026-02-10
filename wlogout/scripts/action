@@ -8,7 +8,7 @@ case $1 in
         systemctl reboot
         ;;
     suspend)
-        systemctl suspend
+        hyprctl dispatch dpms off & hyprlock & sleep 8 && systemctl suspend
         ;;
     lock)
         loginctl lock-session
